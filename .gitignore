@@ -1,0 +1,33 @@
+# .gitignore
+
+# Composer dependencies
+/vendor/
+composer.phar # If you download composer executable locally
+
+# Environment variables
+.env
+
+# Docker specific ignores (often redundant if .dockerignore exists but good as fallback)
+# This project doesn't strictly need these in .gitignore if .dockerignore is used well,
+# but some people like to ensure they are never tracked.
+Dockerfile
+docker-compose.yml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+.project
+.buildpath
+.settings/
+
+# Logs and temporary files
+*.log
+/tmp/
+*.tmp

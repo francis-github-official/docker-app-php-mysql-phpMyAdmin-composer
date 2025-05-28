@@ -1,0 +1,27 @@
+# .dockerignore
+
+# Git
+.git
+.gitignore
+
+# Docker specific files
+.dockerignore
+
+# Environment variables
+.env
+
+# Composer cache and local vendor dir (if present on host)
+/vendor/
+composer.phar
+.composer/
+
+# IDE and editor files (e.g., VS Code config, IntelliJ IDEA)
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Logs and temporary files
+*.log
+tmp/
+*.tmp
